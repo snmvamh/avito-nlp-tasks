@@ -2,7 +2,7 @@
 
 По поисковому запросу надо выбрать из базы до 50 объявлений. Метрика Recall@50.
 
-Всё решение в файле `avito_candgen.ipynb`. Он выполняется сверху вниз и в конце записывает `answer.csv`.
+Всё решение в файле `solution/avito_candgen.ipynb`. Он выполняется сверху вниз и в конце записывает `answer.csv`.
 
 ## Как работает
 
@@ -85,7 +85,7 @@ python3 -m venv --system-site-packages .venv
 
 ## Файлы
 
-* `avito_candgen.ipynb`, решение
+* `solution/avito_candgen.ipynb`, решение
+* `solution/requirements.txt`, версии библиотек
+* `answer.csv`, ответ, создаётся ноутбуком
 * `README.md`, это описание
-* `requirements.txt`, версии библиотек
-* `../answer.csv`, ответ, создаётся ноутбуком
