@@ -1,0 +1,15 @@
+# данные задачи, слишком большие для гитхаба
+*.parquet
+
+# окружение
+.venv/
+__pycache__/
+*.pyc
+
+# кэш эмбеддингов и промежуточные файлы
+work/
+
+# системное
+.DS_Store
+.ipynb_checkpoints/
+push_to_github.sh
